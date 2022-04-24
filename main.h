@@ -20,6 +20,7 @@ typedef struct format
 
 int printf_pointer(va_list arg);
 int printf_hex_aux(unsigned long int arg);
+int printf_HEX_aux(unsigned int arg);
 int printf_excl_str(va_list arg);
 int printf_hex(va_list arg);
 int printf_oct(va_list val);

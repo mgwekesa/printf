@@ -32,7 +32,7 @@ int printf_excl_str(va_list arg)
 				len++;
 			}
 
-			len += printf_hex_aux(cast);
+			len += printf_HEX_aux(cast);
 		}
 
 		else
